@@ -1,0 +1,34 @@
+# What this repository publishes: the University of Delaware ORB lab's VIIRS 8-day anomaly
+# composite from its ERDDAP, chlorophyll-a and SST anomalies over 16-52 N, 100-50 W, regridded
+# to 0.04 degree by the site's scripts/fetch-erddap.py. Published, not drawn on the website's map.
+#
+# **The budget.** The composite steps daily; the newest day was 5.7 days old on 2026-09-27 and
+# 4 of the 33 days before it were missing. 8 days covers that lag and a missed day or two, with
+# runs every six hours. Re-measure after a week.
+
+[contract]
+check = ["node", "scripts/test-schema.mjs"]
+roots = ["node", "scripts/test-schema.mjs", "--roots"]
+
+[defaults]
+timeout_minutes = 20
+
+[steps.erddap]
+cmd = ["python3", "scripts/fetch-erddap.py", "--only=chlanom-viirs,ssta-viirs"]
+lane = "ud-orb-erddap"
+
+[products.chlanom-viirs]
+title = "VIIRS 8-day chlorophyll-a anomaly (UD ORB)"
+step = "erddap"
+roots = ["chlanom-viirs.json"]
+writes = ["chlanom-viirs.json"]
+max_age_hours = 192
+namespace = ["python3", "scripts/fetch-erddap.py", "--namespace", "--only=chlanom-viirs"]
+
+[products.ssta-viirs]
+title = "VIIRS 8-day SST anomaly (UD ORB)"
+step = "erddap"
+roots = ["ssta-viirs.json"]
+writes = ["ssta-viirs.json"]
+max_age_hours = 192
+namespace = ["python3", "scripts/fetch-erddap.py", "--namespace", "--only=ssta-viirs"]
