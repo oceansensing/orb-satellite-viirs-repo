@@ -3,7 +3,7 @@
 The University of Delaware ORB lab's **VIIRS** anomaly products: a data repository of the oceansensing ocean map system, with its own
 Pages site, its own schedule and its own gigabyte, and no code of its own.
 
-**Nothing is published yet.** `PLAN.md` is the founding plan; `CLAUDE.md` carries what must not be
+**Live since 2026-09-27**, on the schedule in its workflow (`33 3,9,15,21 * * *` UTC). `PLAN.md` is the founding plan; `CLAUDE.md` carries what must not be
 got wrong and the shared doc doctrine.
 
 ## What it publishes
