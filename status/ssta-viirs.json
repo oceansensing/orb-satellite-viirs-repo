@@ -1,0 +1,21 @@
+{
+ "schema": 1,
+ "product": "ssta-viirs",
+ "title": "VIIRS 8-day SST anomaly (UD ORB)",
+ "fate": "fresh",
+ "reason": null,
+ "checked": "2026-10-03T22:26:00Z",
+ "updated": "2026-09-27T17:05:01Z",
+ "hour": "2026-09-22T00:00:00Z",
+ "modelRun": null,
+ "source": "University of Delaware ORB, VIIRS",
+ "hours": [
+  "2026-09-22T00:00:00Z"
+ ],
+ "files": {
+  "ssta-viirs.json": {
+   "bytes": 6032569,
+   "sha256": "bce9f72f0c8f8d20424b378ec1ed79dce8d6e4ef1b44f046e8971090d091881e"
+  }
+ }
+}
