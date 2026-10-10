@@ -1,0 +1,21 @@
+{
+ "schema": 1,
+ "product": "chlanom-viirs",
+ "title": "VIIRS 8-day chlorophyll-a anomaly (UD ORB)",
+ "fate": "fresh",
+ "reason": null,
+ "checked": "2026-10-10T15:41:51Z",
+ "updated": "2026-09-27T17:05:01Z",
+ "hour": "2026-09-22T00:00:00Z",
+ "modelRun": null,
+ "source": "University of Delaware ORB, VIIRS",
+ "hours": [
+  "2026-09-22T00:00:00Z"
+ ],
+ "files": {
+  "chlanom-viirs.json": {
+   "bytes": 6573199,
+   "sha256": "1fa8c60426e36587fb09f3588fdfed9bfe3e82be35cdeb4f6c91ee117ede13f7"
+  }
+ }
+}

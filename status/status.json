@@ -1,0 +1,58 @@
+{
+ "schema": 2,
+ "contract": 1,
+ "generated": "2026-10-10T15:41:51Z",
+ "mode": "full",
+ "run": {
+  "id": "38064615370",
+  "url": "https://github.com/oceansensing/orb-satellite-viirs-repo/actions/runs/38064615370"
+ },
+ "schedule": {
+  "crons": [
+   "33 3,9,15,21 * * *"
+  ],
+  "longestGapHours": 6.0
+ },
+ "products": {
+  "chlanom-viirs": {
+   "title": "VIIRS 8-day chlorophyll-a anomaly (UD ORB)",
+   "roots": [
+    "chlanom-viirs.json"
+   ],
+   "fate": "fresh",
+   "reason": null,
+   "checked": "2026-10-10T15:41:51Z",
+   "updated": "2026-09-27T17:05:01Z",
+   "hour": "2026-09-22T00:00:00Z",
+   "modelRun": null,
+   "source": "University of Delaware ORB, VIIRS",
+   "hours": [
+    "2026-09-22T00:00:00Z"
+   ],
+   "stale": true,
+   "staleCause": "upstream",
+   "ageHours": 447.7,
+   "nearestOffsetHours": 447.7
+  },
+  "ssta-viirs": {
+   "title": "VIIRS 8-day SST anomaly (UD ORB)",
+   "roots": [
+    "ssta-viirs.json"
+   ],
+   "fate": "fresh",
+   "reason": null,
+   "checked": "2026-10-10T15:41:51Z",
+   "updated": "2026-09-27T17:05:01Z",
+   "hour": "2026-09-22T00:00:00Z",
+   "modelRun": null,
+   "source": "University of Delaware ORB, VIIRS",
+   "hours": [
+    "2026-09-22T00:00:00Z"
+   ],
+   "stale": true,
+   "staleCause": "upstream",
+   "ageHours": 447.7,
+   "nearestOffsetHours": 447.7
+  }
+ }
+}
