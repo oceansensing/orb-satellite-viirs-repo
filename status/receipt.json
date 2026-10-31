@@ -1,0 +1,19 @@
+{
+ "schema": 1,
+ "generated": "2026-10-31T15:36:46Z",
+ "mode": "full",
+ "fates": {
+  "chlanom-viirs": "fresh",
+  "ssta-viirs": "fresh"
+ },
+ "reasons": {},
+ "built": {},
+ "withheld": {},
+ "deploy": true,
+ "notes": [
+  "chlanom-viirs: nearest frame is 951.6 h old, past its 192 h budget \u2014 upstream has nothing newer",
+  "ssta-viirs: nearest frame is 951.6 h old, past its 192 h budget \u2014 upstream has nothing newer"
+ ],
+ "behind": [],
+ "tile_keys": {}
+}
