@@ -1,0 +1,22 @@
+{
+ "schema": 1,
+ "generated": "2026-11-28T15:37:01Z",
+ "mode": "full",
+ "fates": {
+  "chlanom-viirs": "held",
+  "ssta-viirs": "held"
+ },
+ "reasons": {
+  "chlanom-viirs": "step erddap exit 1",
+  "ssta-viirs": "step erddap exit 1"
+ },
+ "built": {},
+ "withheld": {},
+ "deploy": true,
+ "notes": [],
+ "behind": [
+  "chlanom-viirs (1623.6 h, held)",
+  "ssta-viirs (1623.6 h, held)"
+ ],
+ "tile_keys": {}
+}
